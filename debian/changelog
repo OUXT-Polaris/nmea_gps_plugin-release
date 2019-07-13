@@ -1,0 +1,27 @@
+ros-melodic-nmea-gps-plugin (0.0.2-1bionic) bionic; urgency=high
+
+  * Merge pull request #2 <https://github.com/OUXT-Polaris/nmea_gps_plugin/issues/2> from OUXT-Polaris/develop
+    Develop
+  * Merge pull request #1 <https://github.com/OUXT-Polaris/nmea_gps_plugin/issues/1> from OUXT-Polaris/feature/improve_lat_lon_accuracy
+    fix     std::string NmeaGpsPlugin::convertToDmm(double value) function
+  * fix     std::string NmeaGpsPlugin::convertToDmm(double value) function
+  * Update README.md
+  * Contributors: Masaya Kataoka
+  * Merge pull request #2 <https://github.com/OUXT-Polaris/nmea_gps_plugin/issues/2> from OUXT-Polaris/develop
+    Develop
+  * Merge pull request #1 <https://github.com/OUXT-Polaris/nmea_gps_plugin/issues/1> from OUXT-Polaris/feature/improve_lat_lon_accuracy
+    fix     std::string NmeaGpsPlugin::convertToDmm(double value) function
+  * fix     std::string NmeaGpsPlugin::convertToDmm(double value) function
+  * Update README.md
+  * Contributors: Masaya Kataoka
+  * Merge pull request #2 <https://github.com/OUXT-Polaris/nmea_gps_plugin/issues/2> from OUXT-Polaris/develop
+    Develop
+  * Merge pull request #1 <https://github.com/OUXT-Polaris/nmea_gps_plugin/issues/1> from OUXT-Polaris/feature/improve_lat_lon_accuracy
+    fix     std::string NmeaGpsPlugin::convertToDmm(double value) function
+  * fix     std::string NmeaGpsPlugin::convertToDmm(double value) function
+  * Update README.md
+  * Contributors: Masaya Kataoka
+
+ -- Masaya Kataoka <ms.kataoka@gmail.com>  Fri, 12 Jul 2019 15:00:00 -0000
+
+
