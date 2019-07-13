@@ -26,12 +26,12 @@
 #include <quaternion_operation/quaternion_operation.h>
 #include <geodesy/utm.h>
 #include <geodesy/wgs84.h>
-//#include <hector_gazebo_plugins/update_timer.h>
 
 // Headers in STL
 #include <time.h>
 #include <math.h>
 #include <memory>
+#include <iomanip>
 
 // Headers in this package
 #include <nmea_gps_plugin/gps_sensor_model.h>
@@ -181,6 +181,11 @@ namespace gazebo
             double position_gaussiaa_noise_;
             double orientation_gaussian_noise_;
             double velocity_gaussian_noise_;
+#if (GAZEBO_MAJOR_VERSION >= 8)
+            boost::optional<ignition::math::Pose3d> initial_gazebo_pose_;
+#else
+            boost::optional<gazebo::math::Pose> initial_gazebo_pose_;
+#endif
     };
 }
 
